@@ -1,0 +1,24 @@
+{
+    "name": "thariq/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "thariq maulana",
+            "email": "thariqmaulana01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThariqLibrary\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "monolog/monolog": "3.7.0",
+        "thariq/belajar-php-composer-hello": "2.0.0"
+    },
+    "scripts": {
+        "jalankan-server": "php -S localhost:8080"
+    }
+}
